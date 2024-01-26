@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <title>Sign Up </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery.min.js"></script>
+        <script src="index.js"> </script>
+    </head>
+    <body>
+        <div class="boxes">
+            <div class="signup-all">
+                <div class="signup-box">
+                    <h1>Sign Up</h1>
+                    <form onsubmit="return check()" name="signfm">
+                        <label>First Name</label>
+                        <input type="text"  name="fname" id="fname" placeholder="Enter First Name">
+
+                        <label>Last Name</label>
+                        <input type="text"  name="lname" id="lname" placeholder="Enter Last Name">
+            
+                        <label>E-mail</label>
+                        <input type="text"  name="email" id="email" placeholder="Enter E-mail Address">
+                        
+                        <label>Password</label>
+                        <input type="password"  name="pass" id="pass" placeholder="Enter Password">
+                    
+                
+                        <label>Confirm Password</label>
+                        <input type="password"  name="conpass" id="conpass" placeholder="Re-Enter Password">
+                        
+                        <input type="submit" id="submitBtn" value="Submit" />
+                    </form>
+                </div>
+                <p class="para-2">
+                    Already have an account? <a>Login here</a>
+                </p>
+            </div>
+            <div class="login-all">
+                <div class="login-box">
+                    <h1>Login</h1>
+                    <form name="login_form" action="home.html" onsubmit="return recheck()">
+                    <label>Email</label>
+                    <input type="text" id="log_email" placeholder="Enter E-mail Address" />
+                    <label>Password</label>
+                    <input type="password" id="log_pass" placeholder="Enter Password" />
+                    <input type="submit" value="Submit" />
+                </form>
+                </div>
+                <p class="para-1">
+                    Not have an account? <a >Sign Up Here</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
