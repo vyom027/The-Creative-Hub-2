@@ -27,7 +27,7 @@ function check(){
         errors("fname","Enter Your First Name Please...");
         fn = true;
     }
-    else{
+    /*else{
         let reg = /^[a-zA-Z\-]+$/;
         if(reg.test(fname) === false){
             errors("fname","Enter Valid Name Please...");
@@ -36,7 +36,7 @@ function check(){
         else{
             errors("fname","");
         }
-    }
+    }*/
 
     // validation of last name
     if(lname == ""){
